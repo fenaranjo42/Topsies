@@ -1,0 +1,342 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		55F799F51BE40C4E00E46A05 /* TOPDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55F799F31BE40C4E00E46A05 /* TOPDetailViewController.m */; settings = {ASSET_TAGS = (); }; };
+		55F799F61BE40C4E00E46A05 /* TOPDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 55F799F41BE40C4E00E46A05 /* TOPDetailViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		55F799F91BE43C2A00E46A05 /* TOPImageStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 55F799F81BE43C2A00E46A05 /* TOPImageStore.m */; settings = {ASSET_TAGS = (); }; };
+		55F79A001BE482BE00E46A05 /* TOPItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 55F799FE1BE482BE00E46A05 /* TOPItemCell.m */; settings = {ASSET_TAGS = (); }; };
+		55F79A011BE482BE00E46A05 /* TOPItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 55F799FF1BE482BE00E46A05 /* TOPItemCell.xib */; settings = {ASSET_TAGS = (); }; };
+		55F79A071BE541DE00E46A05 /* TOPScoreView.m in Sources */ = {isa = PBXBuildFile; fileRef = 55F79A061BE541DE00E46A05 /* TOPScoreView.m */; settings = {ASSET_TAGS = (); }; };
+		55FBF2051BE1653E00F6B093 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 55FBF2041BE1653E00F6B093 /* main.m */; };
+		55FBF2081BE1653E00F6B093 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 55FBF2071BE1653E00F6B093 /* AppDelegate.m */; };
+		55FBF2101BE1653E00F6B093 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55FBF20F1BE1653E00F6B093 /* Assets.xcassets */; };
+		55FBF2131BE1653E00F6B093 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55FBF2111BE1653E00F6B093 /* LaunchScreen.storyboard */; };
+		55FBF21C1BE169A900F6B093 /* TOPItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 55FBF21B1BE169A900F6B093 /* TOPItem.m */; settings = {ASSET_TAGS = (); }; };
+		55FBF2221BE175EC00F6B093 /* TOPItemsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55FBF2211BE175EC00F6B093 /* TOPItemsViewController.m */; settings = {ASSET_TAGS = (); }; };
+		55FBF2251BE1880800F6B093 /* TOPItemStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 55FBF2241BE1880800F6B093 /* TOPItemStore.m */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		55F799F21BE40C4E00E46A05 /* TOPDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TOPDetailViewController.h; sourceTree = "<group>"; };
+		55F799F31BE40C4E00E46A05 /* TOPDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TOPDetailViewController.m; sourceTree = "<group>"; };
+		55F799F41BE40C4E00E46A05 /* TOPDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TOPDetailViewController.xib; sourceTree = "<group>"; };
+		55F799F71BE43C2A00E46A05 /* TOPImageStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TOPImageStore.h; sourceTree = "<group>"; };
+		55F799F81BE43C2A00E46A05 /* TOPImageStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TOPImageStore.m; sourceTree = "<group>"; };
+		55F799FD1BE482BE00E46A05 /* TOPItemCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TOPItemCell.h; sourceTree = "<group>"; };
+		55F799FE1BE482BE00E46A05 /* TOPItemCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TOPItemCell.m; sourceTree = "<group>"; };
+		55F799FF1BE482BE00E46A05 /* TOPItemCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TOPItemCell.xib; sourceTree = "<group>"; };
+		55F79A051BE541DE00E46A05 /* TOPScoreView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TOPScoreView.h; sourceTree = "<group>"; };
+		55F79A061BE541DE00E46A05 /* TOPScoreView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TOPScoreView.m; sourceTree = "<group>"; };
+		55FBF2001BE1653E00F6B093 /* Topsies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Topsies.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		55FBF2041BE1653E00F6B093 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		55FBF2061BE1653E00F6B093 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		55FBF2071BE1653E00F6B093 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		55FBF20F1BE1653E00F6B093 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		55FBF2121BE1653E00F6B093 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		55FBF2141BE1653E00F6B093 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55FBF21A1BE169A900F6B093 /* TOPItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TOPItem.h; sourceTree = "<group>"; };
+		55FBF21B1BE169A900F6B093 /* TOPItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TOPItem.m; sourceTree = "<group>"; };
+		55FBF2201BE175EC00F6B093 /* TOPItemsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TOPItemsViewController.h; sourceTree = "<group>"; };
+		55FBF2211BE175EC00F6B093 /* TOPItemsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TOPItemsViewController.m; sourceTree = "<group>"; };
+		55FBF2231BE1880800F6B093 /* TOPItemStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TOPItemStore.h; sourceTree = "<group>"; };
+		55FBF2241BE1880800F6B093 /* TOPItemStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TOPItemStore.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		55FBF1FD1BE1653E00F6B093 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		55FBF1F71BE1653D00F6B093 = {
+			isa = PBXGroup;
+			children = (
+				55FBF2021BE1653E00F6B093 /* Topsies */,
+				55FBF2011BE1653E00F6B093 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		55FBF2011BE1653E00F6B093 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				55FBF2001BE1653E00F6B093 /* Topsies.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		55FBF2021BE1653E00F6B093 /* Topsies */ = {
+			isa = PBXGroup;
+			children = (
+				55F799FD1BE482BE00E46A05 /* TOPItemCell.h */,
+				55F799FE1BE482BE00E46A05 /* TOPItemCell.m */,
+				55F799FF1BE482BE00E46A05 /* TOPItemCell.xib */,
+				55FBF21A1BE169A900F6B093 /* TOPItem.h */,
+				55FBF21B1BE169A900F6B093 /* TOPItem.m */,
+				55FBF2231BE1880800F6B093 /* TOPItemStore.h */,
+				55FBF2241BE1880800F6B093 /* TOPItemStore.m */,
+				55FBF2201BE175EC00F6B093 /* TOPItemsViewController.h */,
+				55FBF2211BE175EC00F6B093 /* TOPItemsViewController.m */,
+				55F799F21BE40C4E00E46A05 /* TOPDetailViewController.h */,
+				55F799F31BE40C4E00E46A05 /* TOPDetailViewController.m */,
+				55F799F41BE40C4E00E46A05 /* TOPDetailViewController.xib */,
+				55F799F71BE43C2A00E46A05 /* TOPImageStore.h */,
+				55F799F81BE43C2A00E46A05 /* TOPImageStore.m */,
+				55F79A051BE541DE00E46A05 /* TOPScoreView.h */,
+				55F79A061BE541DE00E46A05 /* TOPScoreView.m */,
+				55FBF20F1BE1653E00F6B093 /* Assets.xcassets */,
+				55FBF2111BE1653E00F6B093 /* LaunchScreen.storyboard */,
+				55FBF2141BE1653E00F6B093 /* Info.plist */,
+				55FBF2031BE1653E00F6B093 /* Supporting Files */,
+			);
+			path = Topsies;
+			sourceTree = "<group>";
+		};
+		55FBF2031BE1653E00F6B093 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				55FBF2061BE1653E00F6B093 /* AppDelegate.h */,
+				55FBF2071BE1653E00F6B093 /* AppDelegate.m */,
+				55FBF2041BE1653E00F6B093 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		55FBF1FF1BE1653E00F6B093 /* Topsies */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55FBF2171BE1653E00F6B093 /* Build configuration list for PBXNativeTarget "Topsies" */;
+			buildPhases = (
+				55FBF1FC1BE1653E00F6B093 /* Sources */,
+				55FBF1FD1BE1653E00F6B093 /* Frameworks */,
+				55FBF1FE1BE1653E00F6B093 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Topsies;
+			productName = Topsies;
+			productReference = 55FBF2001BE1653E00F6B093 /* Topsies.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		55FBF1F81BE1653D00F6B093 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Felipe's Apps";
+				TargetAttributes = {
+					55FBF1FF1BE1653E00F6B093 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = 55FBF1FB1BE1653E00F6B093 /* Build configuration list for PBXProject "Topsies" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 55FBF1F71BE1653D00F6B093;
+			productRefGroup = 55FBF2011BE1653E00F6B093 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				55FBF1FF1BE1653E00F6B093 /* Topsies */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		55FBF1FE1BE1653E00F6B093 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55F799F61BE40C4E00E46A05 /* TOPDetailViewController.xib in Resources */,
+				55FBF2131BE1653E00F6B093 /* LaunchScreen.storyboard in Resources */,
+				55F79A011BE482BE00E46A05 /* TOPItemCell.xib in Resources */,
+				55FBF2101BE1653E00F6B093 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		55FBF1FC1BE1653E00F6B093 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55FBF21C1BE169A900F6B093 /* TOPItem.m in Sources */,
+				55FBF2221BE175EC00F6B093 /* TOPItemsViewController.m in Sources */,
+				55F79A001BE482BE00E46A05 /* TOPItemCell.m in Sources */,
+				55FBF2081BE1653E00F6B093 /* AppDelegate.m in Sources */,
+				55F79A071BE541DE00E46A05 /* TOPScoreView.m in Sources */,
+				55FBF2051BE1653E00F6B093 /* main.m in Sources */,
+				55FBF2251BE1880800F6B093 /* TOPItemStore.m in Sources */,
+				55F799F91BE43C2A00E46A05 /* TOPImageStore.m in Sources */,
+				55F799F51BE40C4E00E46A05 /* TOPDetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		55FBF2111BE1653E00F6B093 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55FBF2121BE1653E00F6B093 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		55FBF2151BE1653E00F6B093 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		55FBF2161BE1653E00F6B093 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		55FBF2181BE1653E00F6B093 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Topsies/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.FepApps.Topsies;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		55FBF2191BE1653E00F6B093 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Topsies/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.FepApps.Topsies;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		55FBF1FB1BE1653E00F6B093 /* Build configuration list for PBXProject "Topsies" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55FBF2151BE1653E00F6B093 /* Debug */,
+				55FBF2161BE1653E00F6B093 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55FBF2171BE1653E00F6B093 /* Build configuration list for PBXNativeTarget "Topsies" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55FBF2181BE1653E00F6B093 /* Debug */,
+				55FBF2191BE1653E00F6B093 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 55FBF1F81BE1653D00F6B093 /* Project object */;
+}
