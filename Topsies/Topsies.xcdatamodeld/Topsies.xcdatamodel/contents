@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="9057" systemVersion="15B42" minimumToolsVersion="Xcode 7.0">
+    <entity name="TOPFoodItemType" syncable="YES">
+        <attribute name="label" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="items" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="TOPItem" inverseName="foodItemType" inverseEntity="TOPItem" syncable="YES"/>
+    </entity>
+    <entity name="TOPItem" representedClassName="TOPItem" syncable="YES">
+        <attribute name="dateCreated" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="itemKey" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="itemName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="orderingValue" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="restaurantName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="score" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="scoreImage" optional="YES" attributeType="Transformable" valueTransformerName="TOPItem" syncable="YES"/>
+        <attribute name="thumbnail" optional="YES" attributeType="Transformable" valueTransformerName="TOPImageTransformer" syncable="YES"/>
+        <attribute name="valueInDollars" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <relationship name="foodItemType" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="TOPFoodItemType" inverseName="items" inverseEntity="TOPFoodItemType" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="TOPItem" positionX="-54" positionY="-9" width="128" height="195"/>
+        <element name="TOPFoodItemType" positionX="-36" positionY="81" width="128" height="75"/>
+    </elements>
+</model>

@@ -11,6 +11,7 @@
 #import "TOPImageStore.h"
 #import "TOPItemStore.h"
 #import "TOPScoreView.h"
+#import "TOPFoodTypeViewController.h"
 
 @interface TOPDetailViewController () <UINavigationControllerDelegate, UIImagePickerControllerDelegate, UITextFieldDelegate, TOPScoreViewDelegate>
 
@@ -21,6 +22,7 @@
 @property (weak, nonatomic) IBOutlet UIImageView *imageView;
 @property (weak, nonatomic) IBOutlet UIToolbar *toolbar;
 @property (weak, nonatomic) IBOutlet TOPScoreView *scoreView;
+@property (weak, nonatomic) IBOutlet UIBarButtonItem *itemTypeButton;
 
 @end
 
@@ -70,7 +72,7 @@
     self.scoreView.notSelectedImage = [UIImage imageNamed:@"StarEmpty.png"];
     self.scoreView.halfSelectedImage = [UIImage imageNamed:@"StarFull.png"];
     self.scoreView.fullSelectedImage = [UIImage imageNamed:@"StarFull.png"];
-    self.scoreView.rating = 0;
+    self.scoreView.rating = self.item.score;
     self.scoreView.editable = YES;
     self.scoreView.maxRating = 5;
     self.scoreView.delegate = self;
@@ -104,6 +106,13 @@
     
     // Use that image to put on the screen in the imageView
     self.imageView.image = imageToDisplay;
+    
+    NSString *typeLabel = [self.item.foodItemType valueForKey:@"label"];
+    if (!typeLabel) {
+        typeLabel = @"None";
+    }
+    
+    self.itemTypeButton.title = [NSString stringWithFormat:@"Type: %@", typeLabel];
 }
 
 - (void)viewWillDisappear:(BOOL)animated
@@ -230,6 +239,18 @@
 - (void)scoreView:(TOPScoreView *)scoreView ratingDidChange:(float)rating
 {
     self.item.score = rating;
+}
+
+#pragma mark - Item Type Picker 
+
+- (IBAction)showItemTypePicker:(id)sender
+{
+    [self.view endEditing:YES];
+    
+    TOPFoodTypeViewController *fvc = [[TOPFoodTypeViewController alloc] init];
+    fvc.item = self.item;
+    
+    [self.navigationController pushViewController:fvc animated:YES];
 }
 
 

@@ -40,6 +40,7 @@
         
         // "Edit" Bar button item
         navItem.leftBarButtonItem = self.editButtonItem;
+        
     }
     
     return self;
@@ -62,8 +63,11 @@
 - (void)viewWillAppear:(BOOL)animated
 {
     [super viewWillAppear:animated];
-     
-     [self.tableView reloadData];
+    
+    self.tableView.backgroundColor = [UIColor colorWithRed:0.129f green:0.129f blue:0.129f alpha:1.00f];
+    
+    [self.tableView reloadData];
+    
 }
 
 - (void)didReceiveMemoryWarning {

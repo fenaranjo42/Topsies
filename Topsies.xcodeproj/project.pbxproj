@@ -7,22 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		55F799F51BE40C4E00E46A05 /* TOPDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55F799F31BE40C4E00E46A05 /* TOPDetailViewController.m */; settings = {ASSET_TAGS = (); }; };
-		55F799F61BE40C4E00E46A05 /* TOPDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 55F799F41BE40C4E00E46A05 /* TOPDetailViewController.xib */; settings = {ASSET_TAGS = (); }; };
-		55F799F91BE43C2A00E46A05 /* TOPImageStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 55F799F81BE43C2A00E46A05 /* TOPImageStore.m */; settings = {ASSET_TAGS = (); }; };
-		55F79A001BE482BE00E46A05 /* TOPItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 55F799FE1BE482BE00E46A05 /* TOPItemCell.m */; settings = {ASSET_TAGS = (); }; };
-		55F79A011BE482BE00E46A05 /* TOPItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 55F799FF1BE482BE00E46A05 /* TOPItemCell.xib */; settings = {ASSET_TAGS = (); }; };
-		55F79A071BE541DE00E46A05 /* TOPScoreView.m in Sources */ = {isa = PBXBuildFile; fileRef = 55F79A061BE541DE00E46A05 /* TOPScoreView.m */; settings = {ASSET_TAGS = (); }; };
+		550592491BEBFA9B00EE1ED1 /* Topsies.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 550592471BEBFA9A00EE1ED1 /* Topsies.xcdatamodeld */; };
+		5505924D1BEC0BB200EE1ED1 /* TOPImageTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 5505924C1BEC0BB200EE1ED1 /* TOPImageTransformer.m */; };
+		550592521BEC147200EE1ED1 /* TOPItem+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 5505924F1BEC147200EE1ED1 /* TOPItem+CoreDataProperties.m */; };
+		550592531BEC147200EE1ED1 /* TOPItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 550592511BEC147200EE1ED1 /* TOPItem.m */; };
+		558869921BEC8997007830D0 /* TOPFoodTypeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 558869911BEC8997007830D0 /* TOPFoodTypeViewController.m */; };
+		55F799F51BE40C4E00E46A05 /* TOPDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55F799F31BE40C4E00E46A05 /* TOPDetailViewController.m */; };
+		55F799F61BE40C4E00E46A05 /* TOPDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 55F799F41BE40C4E00E46A05 /* TOPDetailViewController.xib */; };
+		55F799F91BE43C2A00E46A05 /* TOPImageStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 55F799F81BE43C2A00E46A05 /* TOPImageStore.m */; };
+		55F79A001BE482BE00E46A05 /* TOPItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 55F799FE1BE482BE00E46A05 /* TOPItemCell.m */; };
+		55F79A011BE482BE00E46A05 /* TOPItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 55F799FF1BE482BE00E46A05 /* TOPItemCell.xib */; };
+		55F79A071BE541DE00E46A05 /* TOPScoreView.m in Sources */ = {isa = PBXBuildFile; fileRef = 55F79A061BE541DE00E46A05 /* TOPScoreView.m */; };
 		55FBF2051BE1653E00F6B093 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 55FBF2041BE1653E00F6B093 /* main.m */; };
 		55FBF2081BE1653E00F6B093 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 55FBF2071BE1653E00F6B093 /* AppDelegate.m */; };
 		55FBF2101BE1653E00F6B093 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55FBF20F1BE1653E00F6B093 /* Assets.xcassets */; };
 		55FBF2131BE1653E00F6B093 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55FBF2111BE1653E00F6B093 /* LaunchScreen.storyboard */; };
-		55FBF21C1BE169A900F6B093 /* TOPItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 55FBF21B1BE169A900F6B093 /* TOPItem.m */; settings = {ASSET_TAGS = (); }; };
-		55FBF2221BE175EC00F6B093 /* TOPItemsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55FBF2211BE175EC00F6B093 /* TOPItemsViewController.m */; settings = {ASSET_TAGS = (); }; };
-		55FBF2251BE1880800F6B093 /* TOPItemStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 55FBF2241BE1880800F6B093 /* TOPItemStore.m */; settings = {ASSET_TAGS = (); }; };
+		55FBF2221BE175EC00F6B093 /* TOPItemsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55FBF2211BE175EC00F6B093 /* TOPItemsViewController.m */; };
+		55FBF2251BE1880800F6B093 /* TOPItemStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 55FBF2241BE1880800F6B093 /* TOPItemStore.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		550592481BEBFA9B00EE1ED1 /* Topsies.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Topsies.xcdatamodel; sourceTree = "<group>"; };
+		5505924B1BEC0BB200EE1ED1 /* TOPImageTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TOPImageTransformer.h; sourceTree = "<group>"; };
+		5505924C1BEC0BB200EE1ED1 /* TOPImageTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TOPImageTransformer.m; sourceTree = "<group>"; };
+		5505924E1BEC147200EE1ED1 /* TOPItem+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TOPItem+CoreDataProperties.h"; sourceTree = "<group>"; };
+		5505924F1BEC147200EE1ED1 /* TOPItem+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TOPItem+CoreDataProperties.m"; sourceTree = "<group>"; };
+		550592501BEC147200EE1ED1 /* TOPItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TOPItem.h; sourceTree = "<group>"; };
+		550592511BEC147200EE1ED1 /* TOPItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TOPItem.m; sourceTree = "<group>"; };
+		558869901BEC8997007830D0 /* TOPFoodTypeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TOPFoodTypeViewController.h; sourceTree = "<group>"; };
+		558869911BEC8997007830D0 /* TOPFoodTypeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TOPFoodTypeViewController.m; sourceTree = "<group>"; };
 		55F799F21BE40C4E00E46A05 /* TOPDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TOPDetailViewController.h; sourceTree = "<group>"; };
 		55F799F31BE40C4E00E46A05 /* TOPDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TOPDetailViewController.m; sourceTree = "<group>"; };
 		55F799F41BE40C4E00E46A05 /* TOPDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TOPDetailViewController.xib; sourceTree = "<group>"; };
@@ -40,8 +53,6 @@
 		55FBF20F1BE1653E00F6B093 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		55FBF2121BE1653E00F6B093 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		55FBF2141BE1653E00F6B093 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		55FBF21A1BE169A900F6B093 /* TOPItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TOPItem.h; sourceTree = "<group>"; };
-		55FBF21B1BE169A900F6B093 /* TOPItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TOPItem.m; sourceTree = "<group>"; };
 		55FBF2201BE175EC00F6B093 /* TOPItemsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TOPItemsViewController.h; sourceTree = "<group>"; };
 		55FBF2211BE175EC00F6B093 /* TOPItemsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TOPItemsViewController.m; sourceTree = "<group>"; };
 		55FBF2231BE1880800F6B093 /* TOPItemStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TOPItemStore.h; sourceTree = "<group>"; };
@@ -59,6 +70,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5505924A1BEC0B6700EE1ED1 /* Core Data */ = {
+			isa = PBXGroup;
+			children = (
+				5505924E1BEC147200EE1ED1 /* TOPItem+CoreDataProperties.h */,
+				5505924F1BEC147200EE1ED1 /* TOPItem+CoreDataProperties.m */,
+				550592501BEC147200EE1ED1 /* TOPItem.h */,
+				550592511BEC147200EE1ED1 /* TOPItem.m */,
+				550592471BEBFA9A00EE1ED1 /* Topsies.xcdatamodeld */,
+				5505924B1BEC0BB200EE1ED1 /* TOPImageTransformer.h */,
+				5505924C1BEC0BB200EE1ED1 /* TOPImageTransformer.m */,
+			);
+			name = "Core Data";
+			sourceTree = "<group>";
+		};
 		55FBF1F71BE1653D00F6B093 = {
 			isa = PBXGroup;
 			children = (
@@ -78,11 +103,11 @@
 		55FBF2021BE1653E00F6B093 /* Topsies */ = {
 			isa = PBXGroup;
 			children = (
+				558869901BEC8997007830D0 /* TOPFoodTypeViewController.h */,
+				558869911BEC8997007830D0 /* TOPFoodTypeViewController.m */,
 				55F799FD1BE482BE00E46A05 /* TOPItemCell.h */,
 				55F799FE1BE482BE00E46A05 /* TOPItemCell.m */,
 				55F799FF1BE482BE00E46A05 /* TOPItemCell.xib */,
-				55FBF21A1BE169A900F6B093 /* TOPItem.h */,
-				55FBF21B1BE169A900F6B093 /* TOPItem.m */,
 				55FBF2231BE1880800F6B093 /* TOPItemStore.h */,
 				55FBF2241BE1880800F6B093 /* TOPItemStore.m */,
 				55FBF2201BE175EC00F6B093 /* TOPItemsViewController.h */,
@@ -94,6 +119,7 @@
 				55F799F81BE43C2A00E46A05 /* TOPImageStore.m */,
 				55F79A051BE541DE00E46A05 /* TOPScoreView.h */,
 				55F79A061BE541DE00E46A05 /* TOPScoreView.m */,
+				5505924A1BEC0B6700EE1ED1 /* Core Data */,
 				55FBF20F1BE1653E00F6B093 /* Assets.xcassets */,
 				55FBF2111BE1653E00F6B093 /* LaunchScreen.storyboard */,
 				55FBF2141BE1653E00F6B093 /* Info.plist */,
@@ -183,14 +209,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				55FBF21C1BE169A900F6B093 /* TOPItem.m in Sources */,
+				5505924D1BEC0BB200EE1ED1 /* TOPImageTransformer.m in Sources */,
 				55FBF2221BE175EC00F6B093 /* TOPItemsViewController.m in Sources */,
+				550592521BEC147200EE1ED1 /* TOPItem+CoreDataProperties.m in Sources */,
 				55F79A001BE482BE00E46A05 /* TOPItemCell.m in Sources */,
+				550592491BEBFA9B00EE1ED1 /* Topsies.xcdatamodeld in Sources */,
 				55FBF2081BE1653E00F6B093 /* AppDelegate.m in Sources */,
 				55F79A071BE541DE00E46A05 /* TOPScoreView.m in Sources */,
 				55FBF2051BE1653E00F6B093 /* main.m in Sources */,
 				55FBF2251BE1880800F6B093 /* TOPItemStore.m in Sources */,
 				55F799F91BE43C2A00E46A05 /* TOPImageStore.m in Sources */,
+				550592531BEC147200EE1ED1 /* TOPItem.m in Sources */,
+				558869921BEC8997007830D0 /* TOPFoodTypeViewController.m in Sources */,
 				55F799F51BE40C4E00E46A05 /* TOPDetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -337,6 +367,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		550592471BEBFA9A00EE1ED1 /* Topsies.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				550592481BEBFA9B00EE1ED1 /* Topsies.xcdatamodel */,
+			);
+			currentVersion = 550592481BEBFA9B00EE1ED1 /* Topsies.xcdatamodel */;
+			path = Topsies.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 55FBF1F81BE1653D00F6B093 /* Project object */;
 }

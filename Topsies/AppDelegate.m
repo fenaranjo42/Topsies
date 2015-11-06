@@ -31,8 +31,9 @@
     // Place navigation controller's view in the window hierarchy
     self.window.rootViewController = navController;
     
-    self.window.backgroundColor = [UIColor whiteColor];
+    self.window.backgroundColor = [UIColor colorWithRed:0.129f green:0.129f blue:0.129f alpha:1.00f];
     [self.window makeKeyAndVisible];
+    
     
     return YES;
 }

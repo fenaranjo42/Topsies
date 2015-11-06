@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8191" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9059" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TOPDetailViewController">
             <connections>
                 <outlet property="dateLabel" destination="iH8-Y5-1o0" id="foy-ev-yOc"/>
+                <outlet property="itemTypeButton" destination="RiU-5c-NBt" id="TP6-D0-Gvh"/>
                 <outlet property="nameField" destination="j7D-1c-3Fu" id="ZMi-9Z-Ajb"/>
                 <outlet property="restaurantField" destination="lgy-q8-z3c" id="c3c-KC-GUe"/>
                 <outlet property="scoreView" destination="uXo-M4-jiZ" id="KRv-hn-gu4"/>
@@ -28,7 +29,7 @@
                         <constraint firstAttribute="height" constant="21" id="6Oj-7W-3Bo"/>
                     </constraints>
                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     <nil key="highlightedColor"/>
                 </label>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Place" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dkm-vh-yPk">
@@ -39,7 +40,7 @@
                         <constraint firstAttribute="height" constant="21" id="xCe-0a-8sm"/>
                     </constraints>
                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     <nil key="highlightedColor"/>
                 </label>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Value" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Pz-v4-pwJ">
@@ -50,7 +51,7 @@
                         <constraint firstAttribute="width" constant="42" id="JPz-b4-BgL"/>
                     </constraints>
                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     <nil key="highlightedColor"/>
                 </label>
                 <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="j7D-1c-3Fu">
@@ -88,9 +89,18 @@
                         <constraint firstAttribute="width" constant="100" id="cjD-Wz-ewL"/>
                     </constraints>
                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     <nil key="highlightedColor"/>
                 </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uXo-M4-jiZ" customClass="TOPScoreView">
+                    <rect key="frame" x="148" y="219" width="155" height="31"/>
+                    <animations/>
+                    <color key="backgroundColor" red="0.1284919508" green="0.1284919508" blue="0.1284919508" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="155" id="eME-xh-A2g"/>
+                        <constraint firstAttribute="height" constant="31" id="kEh-SW-Irm"/>
+                    </constraints>
+                </view>
                 <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aXd-Tt-Ybh">
                     <rect key="frame" x="0.0" y="524" width="320" height="44"/>
                     <animations/>
@@ -103,20 +113,17 @@
                                 <action selector="takePicture:" destination="-1" id="ghj-IH-YlQ"/>
                             </connections>
                         </barButtonItem>
+                        <barButtonItem width="63" style="plain" systemItem="fixedSpace" id="Z1x-G6-Uw2"/>
+                        <barButtonItem title="Item" id="RiU-5c-NBt">
+                            <connections>
+                                <action selector="showItemTypePicker:" destination="-1" id="8DB-GC-5Nf"/>
+                            </connections>
+                        </barButtonItem>
                     </items>
                 </toolbar>
-                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uXo-M4-jiZ" customClass="TOPScoreView">
-                    <rect key="frame" x="148" y="219" width="155" height="31"/>
-                    <animations/>
-                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    <constraints>
-                        <constraint firstAttribute="width" constant="155" id="eME-xh-A2g"/>
-                        <constraint firstAttribute="height" constant="31" id="kEh-SW-Irm"/>
-                    </constraints>
-                </view>
             </subviews>
             <animations/>
-            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <color key="backgroundColor" red="0.1284919508" green="0.1284919508" blue="0.1284919508" alpha="1" colorSpace="calibratedRGB"/>
             <constraints>
                 <constraint firstItem="uXo-M4-jiZ" firstAttribute="trailing" secondItem="C5Q-kx-ZnF" secondAttribute="trailing" id="3wr-J8-eEW"/>
                 <constraint firstItem="lgy-q8-z3c" firstAttribute="baseline" secondItem="Dkm-vh-yPk" secondAttribute="baseline" id="5SQ-gB-jtj"/>

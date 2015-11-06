@@ -7,6 +7,7 @@
 //
 
 #import "TOPItemCell.h"
+#import "TOPItem.h"
 
 @implementation TOPItemCell
 
@@ -20,6 +21,7 @@
 
     // Configure the view for the selected state
 }
+
 
 
 @end
