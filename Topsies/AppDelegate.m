@@ -10,6 +10,7 @@
 
 #import "TOPItemsViewController.h"
 #import "TOPItemStore.h"
+#import "TOPHomeViewController.h"
 
 @interface AppDelegate ()
 
@@ -22,16 +23,22 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     
     // Create an ItemsViewController
-    TOPItemsViewController *itemsViewController = [[TOPItemsViewController alloc] init];
+    //TOPItemsViewController *itemsViewController = //[[TOPItemsViewController alloc] init];
+    
+    TOPHomeViewController *home = [[TOPHomeViewController alloc] init];
     
     // Create an instance of UINavigationController; its stack contains only itemsViewController
     UINavigationController *navController = [[UINavigationController alloc]
-                                             initWithRootViewController:itemsViewController];
+                                             initWithRootViewController:home];
     
+    navController.navigationBar.barTintColor = [UIColor colorWithRed:0.119f green:0.161f blue:0.225f alpha:1.00f];
+    navController.toolbar.barTintColor = [UIColor colorWithRed:0.119f green:0.161f blue:0.225f alpha:1.00f];
+
+                                                
     // Place navigation controller's view in the window hierarchy
     self.window.rootViewController = navController;
     
-    self.window.backgroundColor = [UIColor colorWithRed:0.129f green:0.129f blue:0.129f alpha:1.00f];
+    self.window.backgroundColor = [UIColor colorWithRed:0.212f green:0.275f blue:0.365f alpha:1.00f];
     [self.window makeKeyAndVisible];
     
     

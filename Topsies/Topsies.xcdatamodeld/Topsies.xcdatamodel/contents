@@ -17,7 +17,7 @@
         <relationship name="foodItemType" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="TOPFoodItemType" inverseName="items" inverseEntity="TOPFoodItemType" syncable="YES"/>
     </entity>
     <elements>
-        <element name="TOPItem" positionX="-54" positionY="-9" width="128" height="195"/>
         <element name="TOPFoodItemType" positionX="-36" positionY="81" width="128" height="75"/>
+        <element name="TOPItem" positionX="-54" positionY="-9" width="128" height="195"/>
     </elements>
 </model>

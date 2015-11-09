@@ -32,7 +32,9 @@
 
 - (void)viewWillAppear:(BOOL)animated
 {
-    self.tableView.backgroundColor = [UIColor colorWithRed:0.129f green:0.129f blue:0.129f alpha:1.00f];
+    self.tableView.backgroundColor = [UIColor colorWithRed:0.212f green:0.275f blue:0.365f alpha:1.00f];
+    
+    self.navigationController.navigationBar.tintColor = [UIColor colorWithRed:0.119f green:0.161f blue:0.225f alpha:1.00f];
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
@@ -76,7 +78,7 @@
 
 - (void)tableView:(UITableView *)tableView willDisplayCell:(UITableViewCell *)cell forRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    cell.backgroundColor = [UIColor colorWithRed:0.138f green:0.138f blue:0.138f alpha:1.00f];
+    cell.backgroundColor = [UIColor colorWithRed:0.212f green:0.275f blue:0.365f alpha:1.00f];
     cell.textLabel.textColor = [UIColor whiteColor];
     
     [cell.contentView.layer setBorderColor:[UIColor whiteColor].CGColor];

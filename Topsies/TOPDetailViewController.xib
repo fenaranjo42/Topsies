@@ -95,7 +95,7 @@
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uXo-M4-jiZ" customClass="TOPScoreView">
                     <rect key="frame" x="148" y="219" width="155" height="31"/>
                     <animations/>
-                    <color key="backgroundColor" red="0.1284919508" green="0.1284919508" blue="0.1284919508" alpha="1" colorSpace="calibratedRGB"/>
+                    <color key="backgroundColor" red="0.21176470588235294" green="0.27450980392156865" blue="0.36470588235294116" alpha="1" colorSpace="calibratedRGB"/>
                     <constraints>
                         <constraint firstAttribute="width" constant="155" id="eME-xh-A2g"/>
                         <constraint firstAttribute="height" constant="31" id="kEh-SW-Irm"/>
@@ -123,7 +123,7 @@
                 </toolbar>
             </subviews>
             <animations/>
-            <color key="backgroundColor" red="0.1284919508" green="0.1284919508" blue="0.1284919508" alpha="1" colorSpace="calibratedRGB"/>
+            <color key="backgroundColor" red="0.21176470588235294" green="0.27450980392156865" blue="0.36470588235294116" alpha="1" colorSpace="calibratedRGB"/>
             <constraints>
                 <constraint firstItem="uXo-M4-jiZ" firstAttribute="trailing" secondItem="C5Q-kx-ZnF" secondAttribute="trailing" id="3wr-J8-eEW"/>
                 <constraint firstItem="lgy-q8-z3c" firstAttribute="baseline" secondItem="Dkm-vh-yPk" secondAttribute="baseline" id="5SQ-gB-jtj"/>

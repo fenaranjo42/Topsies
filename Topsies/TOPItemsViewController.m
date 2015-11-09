@@ -41,6 +41,7 @@
         // "Edit" Bar button item
         navItem.leftBarButtonItem = self.editButtonItem;
         
+        self.navigationController.navigationBar.titleTextAttributes = @{NSForegroundColorAttributeName : [UIColor whiteColor]};
     }
     
     return self;
@@ -64,7 +65,8 @@
 {
     [super viewWillAppear:animated];
     
-    self.tableView.backgroundColor = [UIColor colorWithRed:0.129f green:0.129f blue:0.129f alpha:1.00f];
+    self.tableView.backgroundColor = [UIColor colorWithRed:0.212f green:0.275f blue:0.365f alpha:1.00f];
+    
     
     [self.tableView reloadData];
     

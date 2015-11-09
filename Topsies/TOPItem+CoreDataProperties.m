@@ -2,7 +2,7 @@
 //  TOPItem+CoreDataProperties.m
 //  Topsies
 //
-//  Created by Felipe on 11/5/15.
+//  Created by Felipe on 11/9/15.
 //  Copyright © 2015 Felipe's Apps. All rights reserved.
 //
 //  Choose "Create NSManagedObject Subclass…" from the Core Data editor menu
@@ -13,15 +13,15 @@
 
 @implementation TOPItem (CoreDataProperties)
 
-@dynamic itemName;
-@dynamic restaurantName;
-@dynamic score;
-@dynamic valueInDollars;
 @dynamic dateCreated;
 @dynamic itemKey;
+@dynamic itemName;
 @dynamic orderingValue;
-@dynamic thumbnail;
+@dynamic restaurantName;
+@dynamic score;
 @dynamic scoreImage;
+@dynamic thumbnail;
+@dynamic valueInDollars;
 @dynamic foodItemType;
 
 @end

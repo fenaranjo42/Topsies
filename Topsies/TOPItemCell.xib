@@ -55,14 +55,24 @@
                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <nil key="highlightedColor"/>
                     </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Zhw-y8-KfW">
+                        <rect key="frame" x="270" y="10" width="37" height="37"/>
+                        <animations/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="37" id="nW9-Tx-gpP"/>
+                            <constraint firstAttribute="width" constant="37" id="paZ-aA-o5y"/>
+                        </constraints>
+                    </imageView>
                 </subviews>
                 <animations/>
-                <color key="backgroundColor" red="0.12941176470588234" green="0.12941176470588234" blue="0.12941176470588234" alpha="1" colorSpace="calibratedRGB"/>
+                <color key="backgroundColor" red="0.21176470588235294" green="0.27450980392156865" blue="0.36470588235294116" alpha="1" colorSpace="calibratedRGB"/>
                 <constraints>
                     <constraint firstAttribute="trailingMargin" secondItem="bjr-O8-OqP" secondAttribute="trailing" constant="6" id="1VI-fm-ITP"/>
+                    <constraint firstItem="Zhw-y8-KfW" firstAttribute="top" secondItem="GfP-5d-bcO" secondAttribute="top" id="5Zb-3W-AtN"/>
                     <constraint firstItem="ue0-f4-w1g" firstAttribute="leading" secondItem="GfP-5d-bcO" secondAttribute="leading" id="AKk-TI-9NY"/>
                     <constraint firstItem="ue0-f4-w1g" firstAttribute="top" secondItem="GfP-5d-bcO" secondAttribute="bottom" constant="12" id="DVc-vx-01P"/>
                     <constraint firstItem="bjr-O8-OqP" firstAttribute="bottom" secondItem="H2p-sc-9uM" secondAttribute="bottomMargin" id="TT9-xV-gDz"/>
+                    <constraint firstItem="Zhw-y8-KfW" firstAttribute="trailing" secondItem="bjr-O8-OqP" secondAttribute="trailing" id="VBO-eu-q6t"/>
                     <constraint firstItem="MmT-d5-MnE" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="2" id="YwG-03-mbm"/>
                     <constraint firstItem="Kg1-iF-WJL" firstAttribute="top" secondItem="MmT-d5-MnE" secondAttribute="bottom" constant="3" id="bt9-LU-VeF"/>
                     <constraint firstItem="MmT-d5-MnE" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="2" id="jVQ-Fu-7et"/>
@@ -73,6 +83,7 @@
             </tableViewCellContentView>
             <animations/>
             <connections>
+                <outlet property="foodTypeImage" destination="Zhw-y8-KfW" id="gCN-DT-Dv5"/>
                 <outlet property="nameLabel" destination="GfP-5d-bcO" id="FaV-N2-Xdz"/>
                 <outlet property="restaurantLabel" destination="ue0-f4-w1g" id="bQC-YC-pBw"/>
                 <outlet property="scoreImage" destination="Kg1-iF-WJL" id="Oaj-aR-puV"/>

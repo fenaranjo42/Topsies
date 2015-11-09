@@ -12,6 +12,10 @@
 		550592521BEC147200EE1ED1 /* TOPItem+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 5505924F1BEC147200EE1ED1 /* TOPItem+CoreDataProperties.m */; };
 		550592531BEC147200EE1ED1 /* TOPItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 550592511BEC147200EE1ED1 /* TOPItem.m */; };
 		558869921BEC8997007830D0 /* TOPFoodTypeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 558869911BEC8997007830D0 /* TOPFoodTypeViewController.m */; };
+		558869961BED7531007830D0 /* TOPHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 558869941BED7531007830D0 /* TOPHomeViewController.m */; };
+		558869971BED7531007830D0 /* TOPHomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 558869951BED7531007830D0 /* TOPHomeViewController.xib */; };
+		558869991BED77A0007830D0 /* green-btn.png in Resources */ = {isa = PBXBuildFile; fileRef = 558869981BED77A0007830D0 /* green-btn.png */; };
+		5588699B1BED7852007830D0 /* yellow-btn.png in Resources */ = {isa = PBXBuildFile; fileRef = 5588699A1BED7852007830D0 /* yellow-btn.png */; };
 		55F799F51BE40C4E00E46A05 /* TOPDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55F799F31BE40C4E00E46A05 /* TOPDetailViewController.m */; };
 		55F799F61BE40C4E00E46A05 /* TOPDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 55F799F41BE40C4E00E46A05 /* TOPDetailViewController.xib */; };
 		55F799F91BE43C2A00E46A05 /* TOPImageStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 55F799F81BE43C2A00E46A05 /* TOPImageStore.m */; };
@@ -36,6 +40,11 @@
 		550592511BEC147200EE1ED1 /* TOPItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TOPItem.m; sourceTree = "<group>"; };
 		558869901BEC8997007830D0 /* TOPFoodTypeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TOPFoodTypeViewController.h; sourceTree = "<group>"; };
 		558869911BEC8997007830D0 /* TOPFoodTypeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TOPFoodTypeViewController.m; sourceTree = "<group>"; };
+		558869931BED7531007830D0 /* TOPHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TOPHomeViewController.h; sourceTree = "<group>"; };
+		558869941BED7531007830D0 /* TOPHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TOPHomeViewController.m; sourceTree = "<group>"; };
+		558869951BED7531007830D0 /* TOPHomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TOPHomeViewController.xib; sourceTree = "<group>"; };
+		558869981BED77A0007830D0 /* green-btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "green-btn.png"; sourceTree = "<group>"; };
+		5588699A1BED7852007830D0 /* yellow-btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "yellow-btn.png"; sourceTree = "<group>"; };
 		55F799F21BE40C4E00E46A05 /* TOPDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TOPDetailViewController.h; sourceTree = "<group>"; };
 		55F799F31BE40C4E00E46A05 /* TOPDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TOPDetailViewController.m; sourceTree = "<group>"; };
 		55F799F41BE40C4E00E46A05 /* TOPDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TOPDetailViewController.xib; sourceTree = "<group>"; };
@@ -84,6 +93,15 @@
 			name = "Core Data";
 			sourceTree = "<group>";
 		};
+		5588699C1BED7861007830D0 /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				558869981BED77A0007830D0 /* green-btn.png */,
+				5588699A1BED7852007830D0 /* yellow-btn.png */,
+			);
+			name = Buttons;
+			sourceTree = "<group>";
+		};
 		55FBF1F71BE1653D00F6B093 = {
 			isa = PBXGroup;
 			children = (
@@ -103,6 +121,9 @@
 		55FBF2021BE1653E00F6B093 /* Topsies */ = {
 			isa = PBXGroup;
 			children = (
+				558869931BED7531007830D0 /* TOPHomeViewController.h */,
+				558869941BED7531007830D0 /* TOPHomeViewController.m */,
+				558869951BED7531007830D0 /* TOPHomeViewController.xib */,
 				558869901BEC8997007830D0 /* TOPFoodTypeViewController.h */,
 				558869911BEC8997007830D0 /* TOPFoodTypeViewController.m */,
 				55F799FD1BE482BE00E46A05 /* TOPItemCell.h */,
@@ -122,6 +143,7 @@
 				5505924A1BEC0B6700EE1ED1 /* Core Data */,
 				55FBF20F1BE1653E00F6B093 /* Assets.xcassets */,
 				55FBF2111BE1653E00F6B093 /* LaunchScreen.storyboard */,
+				5588699C1BED7861007830D0 /* Buttons */,
 				55FBF2141BE1653E00F6B093 /* Info.plist */,
 				55FBF2031BE1653E00F6B093 /* Supporting Files */,
 			);
@@ -199,6 +221,9 @@
 				55FBF2131BE1653E00F6B093 /* LaunchScreen.storyboard in Resources */,
 				55F79A011BE482BE00E46A05 /* TOPItemCell.xib in Resources */,
 				55FBF2101BE1653E00F6B093 /* Assets.xcassets in Resources */,
+				558869991BED77A0007830D0 /* green-btn.png in Resources */,
+				558869971BED7531007830D0 /* TOPHomeViewController.xib in Resources */,
+				5588699B1BED7852007830D0 /* yellow-btn.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -222,6 +247,7 @@
 				550592531BEC147200EE1ED1 /* TOPItem.m in Sources */,
 				558869921BEC8997007830D0 /* TOPFoodTypeViewController.m in Sources */,
 				55F799F51BE40C4E00E46A05 /* TOPDetailViewController.m in Sources */,
+				558869961BED7531007830D0 /* TOPHomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

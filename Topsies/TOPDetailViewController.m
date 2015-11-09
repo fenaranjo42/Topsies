@@ -68,6 +68,7 @@
     [self.view addConstraints:horizontalConstraints];
     [self.view addConstraints:verticalConstraints];
     
+    
     // Updating the Score View
     self.scoreView.notSelectedImage = [UIImage imageNamed:@"StarEmpty.png"];
     self.scoreView.halfSelectedImage = [UIImage imageNamed:@"StarFull.png"];
@@ -111,6 +112,11 @@
     if (!typeLabel) {
         typeLabel = @"None";
     }
+    
+    self.navigationController.toolbar.barTintColor = [UIColor colorWithRed:0.119f green:0.161f blue:0.225f alpha:1.00f];
+    self.navigationController.navigationBar.barTintColor = [UIColor colorWithRed:0.119f green:0.161f blue:0.225f alpha:1.00f];
+    self.navigationController.navigationBar.tintColor = [UIColor colorWithRed:0.851f green:0.369f blue:0.247f alpha:1.00f];
+    self.navigationController.toolbar.tintColor = [UIColor colorWithRed:0.851f green:0.369f blue:0.247f alpha:1.00f];
     
     self.itemTypeButton.title = [NSString stringWithFormat:@"Type: %@", typeLabel];
 }
